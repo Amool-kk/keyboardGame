@@ -1,0 +1,249 @@
+.main-cont {
+    background-image: url("/public/img/bg.png");
+    width: 100%;
+    height: 330px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-cont::after {
+    content: "";
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.main-cont .game_details {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    z-index: 99;
+}
+
+.game_details .user_details {
+    margin: 0px 22px;
+    flex: 1;
+}
+
+.game_details .user_other_details,
+.user_social {
+    display: flex;
+}
+
+.user_details .user {
+    margin-bottom: 20px;
+}
+.user_details .user_name{
+    font-size: 21px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.user_social .user_social{
+    width: 70px;
+}
+
+.user_social .social {
+    margin: auto;
+    width: fit-content;
+}
+
+.user_other_details .items {
+    margin-right: 30px;
+    flex: 1;
+}
+
+.user_other_details .items .rank{
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.user_other_details .items div:nth-child(1){
+    font-size: 20px;
+    font-weight: 500; 
+}
+
+.user_other_details .items:nth-child(6) {
+    text-align: right;
+    align-items: center;
+    margin: 0px;
+}
+
+.items button {
+    padding: 10px 28px;
+    background-color: transparent;
+    outline: none;
+    border: 1   px solid #FFFFFF;
+    box-shadow: 2px 2px 9px 3px rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.game_details .user_avatar {
+    width: 100px;
+    height: 120px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+
+
+
+.container {
+    background-color: black;
+    width: 100%;
+    min-height: 62vh;
+    margin: auto;
+}
+
+.container .tournament {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.container-items {
+    display: inline-flex;
+}
+
+.container-items li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+.card {
+    /* position:; */
+    top: 35%;
+    left: 60%;
+    /* transform: translate(87%,-10%); */
+    text-align: center;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 0px 0px rgba(255, 255, 255, 0.7)
+}
+
+.container-items:nth-child(2) {
+    align-items: center;
+}
+
+.container-items:nth-child(2) {
+    margin-left: auto;
+}
+
+.card .card-item {
+    margin-bottom: 18px;
+}
+
+.card .card-items {
+    margin-bottom: 5px;
+}
+
+.card button {
+    color: black;
+    font-weight: 800;
+    padding: 5px 15px;
+    border-radius: 2px;
+    outline: none;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
+
+.ReactModal__Overlay {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: all 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.ReactModal__Overlay--before-close {
+    opacity: 0;
+    transform: translateX(-100px);
+}
+
+
+
+
+.sliderHeader {
+    background-color: black !important;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.slider-container {
+    background-color: black !important;
+    padding: 20px;
+}
+
+.sliderContainer {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sliderBody {
+    display: unset;
+    padding: 0px 20px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.sliderBody li {
+    list-style: none;
+    margin: 35px 0px;
+}
+
+.sliderBody button {
+    padding: 8px 40px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.closeBtn {
+    top: 46px;
+}
+
+.sliderBody .slider-header {
+    margin: 20px 0px;
+    font-weight: 600px;
+    font-size: 20px;
+    color: #C9C9C9;
+}
+
+.sliderBody .slider-content {
+    margin: 20px 0px;
+    font-family: 'Urbanist', sans-serif;
+    color: #989898;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sliderBody input{
+    margin-right: 10px;
+    scale: 1.5;
+}
+
+.sliderBody
+
+.sliderBody hr {
+    /* background-color: rgba(0, 0, 0,0.8); */
+    width: auto;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.sliderBody .white{
+    color: white;
+}

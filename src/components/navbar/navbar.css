@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid white; */
+    padding: 50px 0px 0px 0px;
+    background-color: transparent;
+}
+
+.navLink {
+    text-decoration: none !important;
+}
+
+nav .heading {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+nav .items {
+    display: flex;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+nav .items .link {
+    margin-left: -50px;
+    margin-right: 50px;
+    padding: 0px 50px 0px 0px;
+}
+
+nav .profile {
+    display: flex;
+    /* width: 120px; */
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+nav .profile .profile-item {
+    display: inline-flex;
+    border: 1px solid rgba(255, 255, 255, 0.33);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-align: center;
+    align-items: center;
+    padding: 0px 10px;
+    height: 28px;
+    width: fit-content;
+}
+
+nav .profile .profile-img img {
+    border: 1px solid white;
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    transform: translate(-72%, -50%);
+}
+
+nav .profile .profile-username {
+    text-align: center;
+    align-items: center;
+    padding: 0px 10px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+nav .profile .profile-button {
+    padding: 4px 8px;
+    border-radius: 50%;
+}
+
+nav .profile .profile-button:hover {
+    border-radius: 50%;
+    cursor: pointer;
+}

@@ -1,0 +1,86 @@
+:root {
+    --smaller: .75;
+}
+
+.tournament_details {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 140px;
+}
+
+.tournament_details .tournament_items {
+    margin: auto;
+    width: 150px;
+    flex: 1 1;
+}
+
+.tournament_details .tournament_items:nth-child(1) {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.tournament_details .tournament_items:nth-child(2) {
+    text-align: right;
+}
+
+.tournament_details .tournament_items .value {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+
+
+.container {
+    position: relative;
+}
+
+
+.tournament_timer {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tournament_heading {
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.tournament_timer ul {
+    width: fit-content;
+    margin: auto;
+}
+
+
+.tournament_timer  li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    padding-right: 0px;
+    text-transform: uppercase;
+}
+
+.tournament_timer li p {
+    width: fit-content;
+    padding-left: 15px;
+}
+
+.tournament_timer li span {
+    display: block;
+    font-size: 4.5rem;
+}
+
+@media all and (max-width: 768px) {
+    .tournament_timer li {
+        font-size: calc(1.125rem * var(--smaller));
+    }
+
+    .tournament_timer li span {
+        font-size: calc(3.375rem * var(--smaller));
+    }
+}
