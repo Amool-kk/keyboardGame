@@ -54,7 +54,7 @@ const Tournament = () => {
                             Rex11
                         </div>
                         <div className="user_bet">
-
+                            Current Bet : 0
                         </div>
                         <button>BET</button>
                     </div>
@@ -63,6 +63,31 @@ const Tournament = () => {
                             Participant
                         </div>
                         <div className="bets_table">
+                            <div className="row">
+                                <ul>
+                                    <li>
+                                        <div className="user_profile"></div>
+                                    </li>
+                                    <li>
+                                        <div className="user_details">
+                                            <div className="user_name">
+                                                Zobin
+                                            </div>
+                                            <div className="view_profile">
+                                                View Profile
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            Bet Amount
+                                        </div>
+                                        <div className="value">
+                                            51 <span style={{ fontSize: "20px" }} >KH</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                             <div className="row">
                                 <ul>
                                     <li>
