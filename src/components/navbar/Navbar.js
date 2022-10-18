@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <nav>
             <div className="heading">
-                <Link to={"/dashboard"} className="navLink">
+                <Link to={"/"} className="navLink">
                     <img src="/img/logo.png" style={{width:"350px",height:"50px"}} />
                 </Link>
             </div>
@@ -28,7 +28,7 @@ const Navbar = () => {
                 </div>
                 <div className="profile-item">
                     <div className="profile-username profile-items">
-                        amool kuldiya
+                        Wallet ID
                     </div>
                     <div className="profile-button profile-items">
                         <img src="/img/down-arrow.png" alt=""  />

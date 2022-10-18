@@ -31,7 +31,7 @@ const Dashboard = () => {
                                 <img src="/img/arrow.png" style={{ position: "absolute", top: "9.4rem", right: "20px" }} />
                             </div>
                             <p className='slider-content'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatum a ea qui obcaecati iste facilis ipsum temporibus magnam vitae.</p>
-                            <Link to='/tournament'><button>PLAY</button></Link>
+                            <Link to='/tournament-registration'><button>PLAY</button></Link>
                         </li>
                         <hr />
                         <li>
